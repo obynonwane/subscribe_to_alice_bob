@@ -45,11 +45,10 @@ $ ./target/release/data-avail --base-path /tmp/bob --chain misc/genesis/devnet.c
 
 $ run ts-node sub.ts
 
-## Stay in touch
+## Subscription Code Link
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Alice - [Avail Network](<https://github.com/obynonwane/bob_node_avail_engineering_test/blob/main/tests/js_api/src/sub.ts#:~:text=async%20function%20retrieveSubscription(lastHeader%3A%20any)%20%7B>)
+- Bob - [Avail Network](<https://github.com/obynonwane/bob_node_avail_engineering_test/blob/main/tests/js_api/src/sub.ts#:~:text=async%20function%20retrieveSubscription(lastHeader%3A%20any)%20%7B>)
 
 ## License
 
