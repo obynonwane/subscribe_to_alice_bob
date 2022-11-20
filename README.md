@@ -39,9 +39,11 @@ $ ./target/release/data-avail --base-path /tmp/bob --chain misc/genesis/devnet.c
 
 ```
 
-## Support
+## Start Subscription Script
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+# cd into avail Alice & Bob nodes: /tests/js_api/src
+
+$ run ts-node sub.ts
 
 ## Stay in touch
 
