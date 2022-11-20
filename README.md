@@ -55,7 +55,7 @@ $  truffle deploy
 ### cd into avail Alice & Bob nodes - script path: /tests/js_api/src
 
 ```bash
-# Run subscription scrip
+# Run subscription script
 $  ts-node sub.ts
 
 ```
