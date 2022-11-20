@@ -39,17 +39,12 @@ $ ./target/release/data-avail --base-path /tmp/bob --chain misc/genesis/devnet.c
 
 ```
 
-## Smart Contract
+### Smart Contract
 
-```bash
-# Start Alice Node as Boot node
-- Smart Contract - [](https://github.com/obynonwane/subscribe_to_alice_bob/blob/a4d68b46bc638437f1d54d194fea52b7c4f3aaaf/sol_contracts/contracts/Blocks.sol#L4)
-
-- Smart ABI - [](https://github.com/obynonwane/alice_node_avail_engineering_test/blob/e0f2d0e13e5bd2ea1f45e286d6c89c3d9dd5f490/tests/js_api/src/sub.ts#L41)
+- Smart Contract - [Avail Network](https://github.com/obynonwane/alice_node_avail_engineering_test/blob/e0f2d0e13e5bd2ea1f45e286d6c89c3d9dd5f490/tests/js_api/src/sub.ts#L41)
+- ABI - [Avail Network](https://github.com/obynonwane/bob_node_avail_engineering_test/blob/0d7f73f308fedafa4099557465cd27082ab924a5/tests/js_api/src/sub.ts#L48)
 
 # Start Bob Node as Validator
-
-```
 
 ## Start Subscription Script for finalised blocks
 
