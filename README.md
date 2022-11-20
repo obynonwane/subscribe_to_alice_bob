@@ -52,9 +52,13 @@ $  truffle deploy
 
 ## Start Subscription Script for finalised blocks
 
-### cd into avail Alice & Bob nodes - path: /tests/js_api/src
+### cd into avail Alice & Bob nodes - script path: /tests/js_api/src
 
-$ run ts-node sub.ts
+```bash
+# Run subscription scrip
+$  ts-node sub.ts
+
+```
 
 ### Finalised Block subscription script Links for both nodes Alice & Bob
 
