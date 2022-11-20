@@ -39,16 +39,16 @@ $ ./target/release/data-avail --base-path /tmp/bob --chain misc/genesis/devnet.c
 
 ```
 
-## Start Subscription Script
+## Start Subscription Script for finalised blocks
 
-# cd into avail Alice & Bob nodes: /tests/js_api/src
+### cd into avail Alice & Bob nodes - path: /tests/js_api/src
 
 $ run ts-node sub.ts
 
-## Subscription Code Link
+### Finalised Block subscription script Links for both nodes Alice & Bob
 
-- Alice - [Avail Network](<https://github.com/obynonwane/bob_node_avail_engineering_test/blob/main/tests/js_api/src/sub.ts#:~:text=async%20function%20retrieveSubscription(lastHeader%3A%20any)%20%7B>)
-- Bob - [Avail Network](<https://github.com/obynonwane/bob_node_avail_engineering_test/blob/main/tests/js_api/src/sub.ts#:~:text=async%20function%20retrieveSubscription(lastHeader%3A%20any)%20%7B>)
+- Alice - [Avail Network](https://github.com/obynonwane/alice_node_avail_engineering_test/blob/e0f2d0e13e5bd2ea1f45e286d6c89c3d9dd5f490/tests/js_api/src/sub.ts#L41)
+- Bob - [Avail Network](https://github.com/obynonwane/bob_node_avail_engineering_test/blob/0d7f73f308fedafa4099557465cd27082ab924a5/tests/js_api/src/sub.ts#L48)
 
 ## License
 
