@@ -28,17 +28,15 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## Start Avail Network - Alice & Bob Node
 
 ```bash
-# unit tests
-$ npm run test
+# Start Alice Node as Boot node
+$  ./target/release/data-avail --base-path /tmp/alice --chain misc/genesis/devnet.chain.spec.json --alice --port 30333 --rpc-methods Unsafe --ws-port 9945 --unsafe-ws-external --rpc-cors all --rpc-external  --rpc-port 9933 --node-key 0000000000000000000000000000000000000000000000000000000000000001 --validator
 
-# e2e tests
-$ npm run test:e2e
+# Start Bob Node as Validator
+$ ./target/release/data-avail --base-path /tmp/bob --chain misc/genesis/devnet.chain.spec.json --bob --port 30334 --rpc-methods Unsafe  --ws-port 9946 --unsafe-ws-external --rpc-cors all --rpc-external  --rpc-port 9934  --validator --bootnodes /ip4/127.0.0.1/tcp/30333/p2p/12D3KooWEyoppNCUx8Yx66oV9fJnriXwCcXwDDUA2kj6vnc6iDEp
 
-# test coverage
-$ npm run test:cov
 ```
 
 ## Support
