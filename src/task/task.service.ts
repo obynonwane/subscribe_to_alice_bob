@@ -35,7 +35,7 @@ export class TaskService {
     private transactionRepository: Repository<Transaction>,
   ) {}
 
-  // @Cron('45 * * * * *')
+  @Cron('45 * * * * *')
   async compareAliceAndBobRecord() {
     try {
       //fetch Alice records
