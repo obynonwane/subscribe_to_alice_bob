@@ -39,7 +39,7 @@ $ ./target/release/data-avail --base-path /tmp/bob --chain misc/genesis/devnet.c
 
 ```
 
-### Smart Contract
+## Smart Contract
 
 - Smart Contract Link - [Contract](https://github.com/obynonwane/subscribe_to_alice_bob/blob/cbd10cde10b93608fab5f843ab60d118401fe25c/sol_contracts/contracts/Blocks.sol#L4)
 - Smart Contract ABI - [ABI](https://github.com/obynonwane/subscribe_to_alice_bob/blob/cbd10cde10b93608fab5f843ab60d118401fe25c/sol_contracts/build/contracts/Blocks.json#L2)
@@ -49,8 +49,6 @@ $ ./target/release/data-avail --base-path /tmp/bob --chain misc/genesis/devnet.c
 $  truffle deploy
 
 ```
-
-# Start Bob Node as Validator
 
 ## Start Subscription Script for finalised blocks
 
