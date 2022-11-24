@@ -28,6 +28,15 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Running the database migration
+
+### create your postgress db and supply environment variables as specified in the env.development
+
+```bash
+# development
+$ npm run typeorm:run-migrations
+```
+
 ## Start Avail Network - Alice & Bob Node
 
 ```bash
