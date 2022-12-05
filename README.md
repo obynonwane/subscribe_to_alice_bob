@@ -48,6 +48,18 @@ $ ./target/release/data-avail --base-path /tmp/bob --chain misc/genesis/devnet.c
 
 ```
 
+## Purge Alice & Bob Nodes
+
+```bash
+# Purge Alice Node
+$  ./target/release/data-avail  purge-chain --base-path /tmp/alice --chain misc/genesis/devnet.chain.spec.json
+
+
+# Purge Bob node
+$ ./target/release/data-avail  purge-chain --base-path /tmp/bob --chain misc/genesis/devnet.chain.spec.json
+
+```
+
 ## Start Subscription Script for finalised blocks
 
 ### cd into avail Alice & Bob nodes - script path: /tests/js_api/src
