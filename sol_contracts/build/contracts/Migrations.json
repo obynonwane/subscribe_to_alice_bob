@@ -1512,9 +1512,7 @@
   "ast": {
     "absolutePath": "project:/contracts/Migrations.sol",
     "exportedSymbols": {
-      "Migrations": [
-        143
-      ]
+      "Migrations": [143]
     },
     "id": 144,
     "license": "MIT",
@@ -1522,15 +1520,7 @@
     "nodes": [
       {
         "id": 112,
-        "literals": [
-          "solidity",
-          ">=",
-          "0.4",
-          ".22",
-          "<",
-          "0.9",
-          ".0"
-        ],
+        "literals": ["solidity", ">=", "0.4", ".22", "<", "0.9", ".0"],
         "nodeType": "PragmaDirective",
         "src": "32:32:1"
       },
@@ -1542,9 +1532,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 143,
-        "linearizedBaseContracts": [
-          143
-        ],
+        "linearizedBaseContracts": [143],
         "name": "Migrations",
         "nameLocation": "75:10:1",
         "nodeType": "ContractDefinition",
@@ -1728,10 +1716,7 @@
                       "id": 120,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "196:7:1",
                       "typeDescriptions": {
@@ -1914,12 +1899,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x8ac1F0496899a6069Fa794879B975Aa361969f4A",
-      "transactionHash": "0x9fcb9874bf5cc5f231ccd973048d29a2e610ec33798522963235316aff57c4b3"
+      "address": "0x4f92D73dae256DF9B82176aF3C0950c8Fe675Ec6",
+      "transactionHash": "0xc77f891a4802d8c49cb47b3bd8468866c7d3bfec21d700d132c70e7580238eea"
     }
   },
   "schemaVersion": "3.4.8",
-  "updatedAt": "2022-11-20T13:47:22.344Z",
+  "updatedAt": "2023-01-11T07:14:27.885Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
